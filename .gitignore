@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+afrisearch/frontend/node_modules/
+afrisearch/backend/node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+afrisearch/backend/.env
+afrisearch/frontend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+/dist
+/build
+.next
+out/
+
+# Local data
+*.local
+*.sqlite
+*.db
+
+# Docker volumes
+afrisearch/mongodb_data/
+afrisearch/es_data/
+afrisearch/redis_data/
+
+# VSCode
+.vscode/
+
+# Misc
+coverage/
+.nyc_output/
+
+# Optional: ignore lock files if needed
+# package-lock.json
+# yarn.lock
